@@ -1,10 +1,11 @@
+pip install tensorflow
+
 import streamlit as st
 import tensorflow.keras
 from tensorflow.keras.models import load_model
 import keras
 from PIL import Image, ImageOps
 import numpy as np
-import cv2
 
 def machine_classification(img, weights_file):
     # Load the model
